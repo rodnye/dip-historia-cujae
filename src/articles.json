@@ -1,0 +1,139 @@
+{
+  "6to_congreso_del_pcc": {
+    "id": "6to_congreso_del_pcc",
+    "path": "/articles/6to_congreso_del_pcc",
+    "images": [
+      {
+        "url": "/articles/6to_congreso_del_pcc/images/6to_Congreso_del_PCC.jpg",
+        "alt": "Fidel con Raúl"
+      },
+      {
+        "url": "/articles/6to_congreso_del_pcc/images/6to_Congreso_del_PCC_2.jpg",
+        "alt": "Asistencia"
+      }
+    ],
+    "title": "6to Congreso del PCC",
+    "author": "Victor Manuelle Moreno Iglesias",
+    "desc": "El 6to Congreso del PCC (2011) sentó las bases para la modernización económica de Cuba, impulsando reformas clave que abrieron nuevos espacios al emprendimiento y la productividad.",
+    "tags": [
+      "Fidel",
+      "Congreso",
+      "Raúl Castro"
+    ],
+    "image": {
+      "src": "/articles/6to_congreso_del_pcc/images/Portada.jpg",
+      "alt": "6to Congreso del PCC"
+    }
+  },
+  "batalla_ideas": {
+    "id": "batalla_ideas",
+    "path": "/articles/batalla_ideas",
+    "images": [
+      {
+        "url": "/articles/batalla_ideas/images/Foto_1.jpg",
+        "alt": "Una maestra enseñando"
+      },
+      {
+        "url": "/articles/batalla_ideas/images/Foto_2.jpg",
+        "alt": "Cartel con frase de Martí"
+      },
+      {
+        "url": "/articles/batalla_ideas/images/Foto_3.jpg",
+        "alt": "Marcha en la plaza"
+      }
+    ],
+    "title": "La Batalla de Ideas Educación, Cultura y Resistencia en Cuba",
+    "author": "Rodny Estrada",
+    "desc": "Hoy, aquella etapa se recuerda como un esfuerzo por equilibrar ideales y realidad. Sus programas aún influyen en políticas públicas, y su espíritu resurge en nuevas generaciones que defienden la educación gratuita y la cultura como pilares de la nación.",
+    "tags": [
+      "Fidel",
+      "Guerra Fría"
+    ],
+    "image": {
+      "src": "/articles/batalla_ideas/images/Portada.jpg",
+      "alt": "Fidel en discurso por mártires en 1989"
+    }
+  },
+  "creacion_del_ce": {
+    "id": "creacion_del_ce",
+    "path": "/articles/creacion_del_ce",
+    "images": [],
+    "title": "Fundación del Canal Educativo.",
+    "author": "Martín Alejandro García",
+    "desc": "El Canal Educativo de Cuba fue fundado el 9 de mayo de 2002 con el propósito de transmitir programas educativos sin afectar otros espacios televisivos.",
+    "tags": [
+      "Televisión",
+      "Educación"
+    ],
+    "image": {
+      "alt": "Logo Canal Educativo",
+      "src": "/articles/creacion_del_ce/images/Portada.jpg"
+    }
+  },
+  "creacion_uci": {
+    "id": "creacion_uci",
+    "path": "/articles/creacion_uci",
+    "images": [],
+    "title": "Creación de la Universidad de Ciencias Informáticas.",
+    "author": "Martín Alejandro García",
+    "desc": "La Universidad de las Ciencias Informáticas (UCI) es una institución cubana creada en 2002 con el objetivo de desarrollar software y contribuir a la informatización del país.",
+    "tags": [
+      "Fidel",
+      "Proyecto Futuro",
+      "UCI",
+      "Software",
+      "Informatización"
+    ],
+    "image": {
+      "alt": "Cartel de la UCI con frase de Fidel",
+      "src": "/articles/creacion_uci/images/Portada.jpg"
+    }
+  },
+  "regreso_de_los_5_heroes": {
+    "id": "regreso_de_los_5_heroes",
+    "path": "/articles/regreso_de_los_5_heroes",
+    "images": [
+      {
+        "url": "/articles/regreso_de_los_5_heroes/images/Foto_1.jpg",
+        "alt": "Mural callejero con los rostros de Los Cinco"
+      },
+      {
+        "url": "/articles/regreso_de_los_5_heroes/images/Foto_2.jpg",
+        "alt": "Los Cinco en el aeropuerto"
+      },
+      {
+        "url": "/articles/regreso_de_los_5_heroes/images/Foto_3.jpg",
+        "alt": "Acto público con Los Cinco"
+      }
+    ],
+    "title": "El Regreso de los Cinco Héroes Cubanos - Un Triunfo de la Resistencia",
+    "author": "Alex Dayan Rodriguez",
+    "desc": "El regreso de Los Cinco no solo cerró un capítulo de dolor, sino que reforzó el discurso de resistencia frente al bloqueo económico. Hoy son símbolos de lealtad y su historia se enseña como ejemplo de sacrificio colectivo.",
+    "tags": [
+      "Antiterroristas",
+      "Solidaridad",
+      "Revolución"
+    ],
+    "image": {
+      "src": "/articles/regreso_de_los_5_heroes/images/Portada.jpg",
+      "alt": "Los Cinco descendiendo del avión en La Habana rodeados de multitud"
+    }
+  },
+  "transferencia_de_poder": {
+    "id": "transferencia_de_poder",
+    "path": "/articles/transferencia_de_poder",
+    "images": [],
+    "title": "La Transición de Poder en Cuba (2006-2008) - Un Momento Histórico",
+    "author": "Victor Manuelle Moreno Iglesias",
+    "desc": "La transición Fidel-Raúl (2006-2008) fue ejemplo de unidad y sucesión pacífica en la Revolución",
+    "tags": [
+      "Fidel",
+      "Raúl Castro",
+      "Liderazgo"
+    ],
+    "image": {
+      "src": "/articles/transferencia_de_poder/images/Transferencia_de_poder.jpg",
+      "alt": "Fidel"
+    }
+  }
+}

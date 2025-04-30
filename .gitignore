@@ -1,5 +1,4 @@
 public/articles/**/*.html
-src/articles.json
 
 # Logs
 logs
