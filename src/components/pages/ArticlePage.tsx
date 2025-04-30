@@ -1,4 +1,4 @@
-import { Redirect, useParams } from 'wouter';
+import { Link, Redirect, useParams } from 'wouter';
 import { useArticle } from '../../utils/load-articles';
 import { Navbar } from '../molecules/Navbar';
 import { Footer } from '../molecules/Footer';
@@ -20,13 +20,15 @@ export function ArticlePage() {
       <div>
         <Navbar />
         <div className="mx-6 my-1">
-          <Button>Página Principal</Button>
+          <Link to="/">
+            <Button>Página Principal</Button>
+          </Link>
         </div>
       </div>
 
       <div className="flex flex-grow flex-col overflow-y-auto">
         {loading || !article ? (
-          <section className="flex flex-col items-center justify-center self-center">
+          <section className="flex flex-grow flex-col items-center justify-center">
             <Loader />
             <h1 className="text-xl">Cargando artículo...</h1>
           </section>
