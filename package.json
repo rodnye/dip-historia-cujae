@@ -4,15 +4,20 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "npm run build && npm run start:server",
+    "start:server": "node server/server.cjs",
     "dev": "npm run prebuild && vite",
     "prebuild": "node scripts/articles.js",
     "build": "npm run prebuild && tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "prettier --write .",
+    "format:preview": "prettier --check ."
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
     "classix": "^2.2.2",
+    "express": "^5.1.0",
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "react": "^19.0.0",
