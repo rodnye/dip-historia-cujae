@@ -1,8 +1,27 @@
 import { defineConfig } from 'vite';
+import tailwindcss from 'tailwindcss';
 import react from '@vitejs/plugin-react';
-import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  css: {
+    postcss: {
+      plugins: [tailwindcss()],
+    },
+  },
+  plugins: [react()],
+  build: {
+    rollupOptions: {
+      plugins: [
+        {
+          name: 'ignore-md-files',
+          resolveId(source) {
+            if (source.endsWith('.md')) {
+              return false;
+            }
+          },
+        },
+      ],
+    },
+  },
 });

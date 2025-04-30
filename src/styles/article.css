@@ -1,0 +1,37 @@
+.article {
+  .image-container {
+    @apply my-6 flex flex-col self-center;
+
+    img {
+      @apply w-[39rem] rounded-xl;
+    }
+    strong {
+      @apply font-bold italic opacity-70;
+      &:before {
+        content: 'Imagen: ';
+      }
+    }
+  }
+
+  .article-body {
+    strong {
+      @apply text-blue-900;
+    }
+
+    h2 {
+      @apply text-2xl;
+    }
+
+    ol,
+    ul {
+      @apply m-2 flex list-decimal flex-col;
+      li {
+        @apply ml-6 pl-0 text-blue-600 underline transition-all duration-150 hover:pl-6;
+      }
+    }
+
+    hr {
+      @apply mx-7 my-6 text-body-content;
+    }
+  }
+}
