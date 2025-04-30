@@ -1,54 +1,32 @@
-# React + TypeScript + Vite
+# DIP Historia CUJAE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+**DIP Historia CUJAE** es una plataforma educativa desarrollada como parte de un trabajo integrador para las asignaturas **Diseño de Interfaces y Pruebas (DIP)** e **Historia de Cuba** durante el curso 2024-2025. El objetivo principal es ofrecer un espacio accesible e intuitivo para explorar temas históricos de Cuba, combinando rigor académico con un diseño centrado en el usuario.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Características
 
-## Expanding the ESLint configuration
+- Plataforma basada en React con TypeScript y Vite.
+- Uso de **TailwindCSS** para estilos modernos y responsivos.
+- Gestión de rutas ligera mediante **wouter**.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Instalación
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Sigue estos pasos para ejecutar el proyecto localmente:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/rodnye/dip-historia-cujae.git
+   ```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd dip-historia-cujae
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
