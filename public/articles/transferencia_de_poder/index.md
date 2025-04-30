@@ -1,13 +1,13 @@
 ---
 title: La Transición de Poder en Cuba (2006-2008) - Un Momento Histórico
-author: Victor Manuelle Moreno Iglesias  
+author: Victor Manuelle Moreno Iglesias
 desc: La transición Fidel-Raúl (2006-2008) fue ejemplo de unidad y sucesión pacífica en la Revolución
 tags:
- - Fidel
- - Raúl Castro 
- - Liderazgo
-image:  
-  src: ./images/Transferencia_de_poder.jpg   
+  - Fidel
+  - Raúl Castro
+  - Liderazgo
+image:
+  src: ./images/Transferencia_de_poder.jpg
   alt: Fidel
 ---
 
