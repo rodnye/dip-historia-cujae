@@ -1,9 +1,11 @@
 import { useState } from 'react';
+import { Link } from 'wouter';
 import heroCujaeImg from '../../assets/hero-cujae.png';
 import { articles } from '../../utils/load-articles';
 import { Navbar } from '../molecules/Navbar';
 import { Footer } from '../molecules/Footer';
 import { ArticleCard } from '../molecules/ArticleCard';
+import { Button } from '../atom/Button';
 
 export function HomePage() {
   const [showMenu, setShowMenu] = useState(false);
@@ -44,10 +46,14 @@ export function HomePage() {
           Artículos destacados:
         </h1>
         <div className="flex flex-col">
-          {articles.map((article) => (
+          {articles.slice(0, 4).map((article) => (
             <ArticleCard articleData={article} key={article.id} />
           ))}
         </div>
+
+        <Link to="/search?q=@todo">
+          <Button>Ver todos los artículos</Button>
+        </Link>
       </section>
 
       <Footer />
