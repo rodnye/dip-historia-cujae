@@ -3,14 +3,14 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Servir archivos estáticos desde la carpeta dist
+// servir archivos estáticos desde la carpeta dist
 app.use(express.static(path.join(__dirname, '../dist')));
 
 // SPA
-app.get('/{*splat}', (req, res) => {
+app.get(/.*/, (_, res) => {
   res.sendFile(path.join(__dirname, '../dist', 'index.html'));
 });
 
 app.listen(port, () => {
-  console.log(`Servidor corriendo en http://localhost:${port}`);
+  console.log(`Running in http://localhost:${port}`);
 });
