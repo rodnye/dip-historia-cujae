@@ -89,6 +89,77 @@
       "src": "/articles/creacion_uci/images/Portada.jpg"
     }
   },
+  "fibra_optica": {
+    "id": "fibra_optica",
+    "path": "/articles/fibra_optica",
+    "images": [
+      {
+        "url": "/articles/fibra_optica/images/foto4.jpg",
+        "alt": "Petrocaribe"
+      },
+      {
+        "url": "/articles/fibra_optica/images/foto5.jpg",
+        "alt": "Puerto del Mariel"
+      },
+      {
+        "url": "/articles/fibra_optica/images/foto6.jpg",
+        "alt": "Modernización del Mariel"
+      },
+      {
+        "url": "/articles/fibra_optica/images/foto8.jpg",
+        "alt": "Alianzas"
+      },
+      {
+        "url": "/articles/fibra_optica/images/foto10.jpg",
+        "alt": "Fifo y Takaka"
+      },
+      {
+        "url": "/articles/fibra_optica/images/foto9.jpg",
+        "alt": "Fidel y Putin"
+      },
+      {
+        "url": "/articles/fibra_optica/images/foto11.jpg",
+        "alt": "Fifo y tralalero tralala"
+      },
+      {
+        "url": "/articles/fibra_optica/images/foto2.jpg",
+        "alt": "ALBA1"
+      }
+    ],
+    "title": "ALBA-1, Un salto tecnológico histórico",
+    "author": "Kevin de la Cruz Pérez",
+    "desc": "ALBA-1 fue el primer cable submarino de fibra óptica entre Venezuela y Cuba, inaugurado en 2011, mejorando la conectividad y reduciendo la dependencia de satélites. Este proyecto, impulsado por la Alianza Bolivariana (ALBA), representó un avance en la integración tecnológica regional y la soberanía comunicacional.",
+    "tags": [
+      "Tecnología",
+      "Soberanía"
+    ],
+    "image": {
+      "src": "/articles/fibra_optica/images/foto2.jpg",
+      "alt": "ALBA1"
+    }
+  },
+  "noveno_congreso_ujc": {
+    "id": "noveno_congreso_ujc",
+    "path": "/articles/noveno_congreso_ujc",
+    "images": [
+      {
+        "url": "/articles/noveno_congreso_ujc/images/Foto2.jpg",
+        "alt": "9no Congreso UJC"
+      }
+    ],
+    "title": "9no Congreso de la UJC",
+    "author": "Herbert Luis Navarro Valdés",
+    "desc": "Raúl Castro y la UJC en 2010: La batalla económica es hoy la tarea principal. El IX Congreso de la Juventud Comunista cubana analizó crisis salarial, emigración y el desafío generacional",
+    "tags": [
+      "Fidel",
+      "Raúl Castro",
+      "UJC"
+    ],
+    "image": {
+      "src": "/articles/noveno_congreso_ujc/images/Foto1.jpg",
+      "alt": "Foto de jóvenes de la UJC reunidos"
+    }
+  },
   "regreso_de_los_5_heroes": {
     "id": "regreso_de_los_5_heroes",
     "path": "/articles/regreso_de_los_5_heroes",
