@@ -190,6 +190,29 @@
       "alt": "Los Cinco descendiendo del avión en La Habana rodeados de multitud"
     }
   },
+  "revolucion_energetica": {
+    "id": "revolucion_energetica",
+    "path": "/articles/revolucion_energetica",
+    "images": [
+      {
+        "url": "/articles/revolucion_energetica/images/Foto_1.jpg",
+        "alt": "Paneles Solares"
+      }
+    ],
+    "title": "La Revolución Energética en Cuba (2006): Transformación y Ahorro",
+    "author": "Frank Abel Martínez Rodríguez",
+    "desc": "La Revolución Energética en Cuba, surgió como respuesta a la crisis energética que afectaba a Cuba, marcada por apagones frecuentes y una infraestructura eléctrica obsoleta.",
+    "tags": [
+      "Revolución",
+      "Energía",
+      "Crisis",
+      "Tecnología"
+    ],
+    "image": {
+      "src": "/articles/revolucion_energetica/images/Portada.jpg",
+      "alt": ""
+    }
+  },
   "transferencia_de_poder": {
     "id": "transferencia_de_poder",
     "path": "/articles/transferencia_de_poder",
@@ -205,6 +228,27 @@
     "image": {
       "src": "/articles/transferencia_de_poder/images/Transferencia_de_poder.jpg",
       "alt": "Fidel"
+    }
+  },
+  "visita_de_obama": {
+    "id": "visita_de_obama",
+    "path": "/articles/visita_de_obama",
+    "images": [
+      {
+        "url": "/articles/visita_de_obama/images/Foto_1.jpg",
+        "alt": "Reunión entre Obama y Raúl Castro"
+      }
+    ],
+    "title": "La Visita de Barack Obama a Cuba (2016): Un Hito en las Relaciones Bilaterales",
+    "author": "Frank Abel Martínez Rodríguez",
+    "desc": "La visita de Barack Obama a Cuba en marzo de 2016 fue histórica, marcando el primer viaje de un presidente estadounidense en ejercicio a la isla en casi 90 años",
+    "tags": [
+      "EEUU",
+      "Cuba"
+    ],
+    "image": {
+      "src": "/articles/visita_de_obama/images/Portada.jpg",
+      "alt": ""
     }
   }
 }

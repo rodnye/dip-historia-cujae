@@ -75,4 +75,5 @@ Los indicadores económicos confirmaron el éxito de esta estrategia:
 ---
 
 **Fuentes consultadas:**
-[Ecured](https://www.ecured.cu)
+
+1. [Ecured](https://www.ecured.cu)
