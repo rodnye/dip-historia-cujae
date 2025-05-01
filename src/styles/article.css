@@ -18,6 +18,13 @@
       @apply text-blue-900;
     }
 
+    h1,
+    h2,
+    h3,
+    h4 {
+      @apply mb-1 mt-3;
+    }
+
     h2 {
       @apply text-2xl;
     }
@@ -26,7 +33,10 @@
     ul {
       @apply m-2 flex list-decimal flex-col;
       li {
-        @apply ml-6 pl-0 text-blue-600 underline transition-all duration-150 hover:pl-6;
+        @apply ml-6 pl-0;
+        a {
+          @apply text-blue-600 underline transition-all duration-150 hover:pl-6;
+        }
       }
     }
 
