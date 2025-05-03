@@ -52,6 +52,6 @@ El evento coincidió con:
 
 **Fuentes consultadas:**
 
-1. [Discursos oficiales (Granma, Cubadebate))](https://www.granma.cu)
-2. [Informe económico ONEI 2011](http://www.onei.gob.cu)
-3. [Ecured](https://www.ecured.cu)
+1. [El 9no Congreso de la Unión de Jóvenes Comunistas(Cubadebate)](http://www.cubadebate.cu/reflexiones-fidel/2010/04/08/el-ix-congreso-de-la-union-de-jovenes-comunistas-de-cuba/)
+2. [Discurso pronunciado por el General de Ejército Raúl Castro Ruz, en la clausura del IX Congreso de la UJC](http://www.fidelcastro.cu/es/noticia/discurso-pronunciado-por-el-general-de-ejercito-raul-castro-ruz-en-la-clausura-del-ix)
+3. [Noveno Congreso de la UJC: Un debate revolucionario y abierto](https://www.juventudrebelde.cu/index.php/cuba/2010-03-27/noveno-congreso-de-la-ujc-un-debate-revolucionario-y-abierto)
