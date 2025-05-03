@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "npm run build && npm run start:server",
-    "start:server": "node server/server.cjs",
+    "start:server": "node server/index.cjs",
     "dev": "npm run prebuild && vite",
     "prebuild": "node scripts/articles.js",
     "build": "npm run prebuild && tsc -b && vite build",
