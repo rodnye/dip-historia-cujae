@@ -11,41 +11,39 @@ image:
   alt: Foto de jóvenes de la UJC reunidos
 ---
 
-En un llamado a superar la "apatía" juvenil y el derroche de recursos, el presidente Raúl Castro instó a 1,000 delegados de la Unión de Jóvenes Comunistas (UJC) a convertir la "batalla económica" en prioridad ideológica. El discurso marcó el tono del IX Congreso, celebrado este domingo en el Palacio de las Convenciones de La Habana, donde se abordó la emigración masiva y salarios equivalentes a 20 USD mensuales.
+El presidente Raúl Castro convocó a numerosos delegados de la Unión de Jóvenes Comunistas (UJC) a convertir la "batalla económica" en prioridad ideológica. El discurso marcó el tono del IX Congreso, celebrado el 5 de abril de 2010 en el Palacio de las Convenciones de La Habana, donde se abordó la emigración masiva y salarios equivalentes a 20 USD mensuales.
+
+![Logo del 9no Congreso de la UJC](./images/Foto5.jpg)
 
 ### Crisis económica y autocrítica
 
-Bajo el lema *"No habrá relevo, sino continuidad"*, Castro reconoció que el Partido Comunista comparte responsabilidad en problemas estructurales: burocracia, corrupción y 1 millón de empleos redundantes. "Enseñaremos a respetar los bienes, enseñándolos a crear", citó del histórico discurso de Fidel Castro en 1972, mientras delegados de 28 años promedio -muchos formados durante el Periodo Especial- aplaudían.
+Bajo el lema *"No habrá relevo, sino continuidad"*, Castro reconoció que el Partido Comunista comparte responsabilidad en problemas estructurales como burocracia y mala implementación de los mecanismos administrativos y económicos. "Enseñaremos a respetar los bienes, enseñándolos a crear", citó del histórico discurso de Fidel Castro en 1972, mientras delegados de 28 años promedio -muchos formados durante el Periodo Especial- aplaudían.
+
+![Jóvenes reunidos en el 9no Congreso de la UJC](./images/Foto-3.jpg)
+
+Raúl señaló que al igual que todos los pueblos del Tercer Mundo,Cuba es víctima del robo descarado de cerebros y fuerza de trabajo joven,y que no se puede cooperar jamás con ese saqueo de nuestros recursos humanos. Además hizo énfasis en que la educación de los cuadros será la tarea más importante para el Partido y expresó:"No habrá jamás soluciones fáciles, el rigor y la exigencia tendrán que prevalecer"
+
+![Raúl en el 9no Congreso de la UJC](./images/Foto4.jpg)
 
 **Cifras clave**:
 
-- 30,000 jóvenes emigraban anualmente según medios independientes
+- 1000 delegados participaron en el congreso (datos de Cubadebate)
 - 64% de los alimentos se importaban en 2010 (datos de la ONEI)
 
-### Juventud vs. "campañas mediáticas"
 
-El mandatario alertó sobre narrativas externas que "demonizan la Revolución", en alusión a protestas internacionales por la muerte del opositor Orlando Zapata Tamayo. "Los hombres se parecen más a su tiempo que a sus padres", argumentó, rechazando comparaciones con generaciones anteriores.
-
-**Polémicas**:
-
-- Medios oficiales omitieron menciones a disidentes durante la cobertura
-- La UJC prometió formar líderes "con experiencia obrera", tras críticas por improvisación en cargos públicos
-
-![9no Congreso UJC](./images/Foto2.jpg)
+![Logo de la UJC](./images/Foto2.jpg)
 
 ### Declaraciones destacadas
 
-> "La supervivencia del socialismo depende de que los jóvenes entiendan que no habrá paternalismo estatal"  
+> "El espíritu autocrítico, la incesante necesidad de estudiar, observar y reflexionar, son a mi juicio características de las que no puede prescindir ningún cuadro revolucionario."  
 > *— Raúl Castro, presidente de Cuba (2010)*
 
-> "¿Continuidad sin cambios? Los salarios no alcanzan ni para el transporte"  
-> *— Comentario anónimo de un delegado a BBC Mundo*
 
 ### Contexto internacional
 
 El evento coincidió con:
 1. Presión de la UE por derechos humanos
-2. Inicio de las reformas económicas de Raúl Castro ("Lineamientos")
+2. Inicio de las reformas económicas de Raúl Castro
 3. Apertura de negocios privados (178 oficios autorizados en 2010)
 
 ---
