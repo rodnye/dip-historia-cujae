@@ -1,8 +1,8 @@
-type ArticleMap = {
+export type ArticleMap = {
   [id: string]: ArticleData;
 };
 
-type ArticleData = {
+export type ArticleData = {
   id: string;
   path: string;
   title: string;
@@ -20,6 +20,12 @@ type ArticleData = {
   featured?: boolean;
 };
 
-type Article = ArticleData & {
+export type Article = ArticleData & {
   html: string;
 };
+
+declare global {
+  type ArticleMap = ArticleMap;
+  type ArticleData = ArticleData;
+  type Article = Article;
+}

@@ -66,8 +66,8 @@
       "Educación"
     ],
     "image": {
-      "alt": "Logo Canal Educativo",
-      "src": "/articles/creacion_del_ce/images/Portada.jpg"
+      "src": "/articles/creacion_del_ce/images/Portada.jpg",
+      "alt": "Logo Canal Educativo"
     }
   },
   "creacion_uci": {
@@ -85,8 +85,8 @@
       "Informatización"
     ],
     "image": {
-      "alt": "Cartel de la UCI con frase de Fidel",
-      "src": "/articles/creacion_uci/images/Portada.jpg"
+      "src": "/articles/creacion_uci/images/Portada.jpg",
+      "alt": "Cartel de la UCI con frase de Fidel"
     }
   },
   "fibra_optica": {

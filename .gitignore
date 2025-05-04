@@ -1,4 +1,5 @@
-public/articles/**/*.html
+# ignore generate content from index.md files
+public/articles/**/content.html
 
 # deploy
 .vercel
