@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useSearchParams } from 'wouter';
+import autoAnimate from '@formkit/auto-animate';
 
 import { SearchField } from '../atom/SearchField';
 import { Footer } from '../molecules/Footer';
@@ -14,6 +15,13 @@ export function SearchPage() {
   const [searchParams] = useSearchParams();
   const [searchValue, setSearchValue] = useState('');
   const [filtered, setFiltered] = useState<ArticleData[]>([]);
+  const resultsRef = useRef(null);
+
+  useEffect(() => {
+    if (resultsRef.current) {
+      autoAnimate(resultsRef.current);
+    }
+  }, [resultsRef]);
 
   useEffect(() => {
     setSearchValue(searchParams.get('q') || '');
@@ -55,9 +63,11 @@ export function SearchPage() {
       </section>
 
       <section className="flex flex-grow flex-col overflow-y-auto">
-        <div className="flex flex-grow flex-col">
+        <div ref={resultsRef} className="flex flex-grow flex-col">
           {filtered.length > 0 ? (
-            filtered.map((article) => <ArticleCard articleData={article} />)
+            filtered.map((article) => (
+              <ArticleCard key={article.id} articleData={article} />
+            ))
           ) : (
             <div className="flex flex-col items-center">
               <img src={notFoundImg} className="w-52" />
