@@ -8,7 +8,7 @@ interface Props {
 export function SearchField({ value, placeholder, onChange, onInput }: Props) {
   return (
     <div className="flex items-center justify-center">
-      <div className="rounded-lg bg-gray-200 p-5 text-gray-500">
+      <div className="rounded-lg bg-gray-200 p-2 text-gray-500">
         <div className="flex">
           <div className="relative flex w-10 items-center justify-center rounded-bl-lg rounded-tl-lg border-r border-gray-200 bg-white p-5">
             <svg
