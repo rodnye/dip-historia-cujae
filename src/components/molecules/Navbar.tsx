@@ -1,15 +1,15 @@
-import { useEffect, useRef, useState } from 'react';
+import { PropsWithChildren, useEffect, useRef, useState } from 'react';
 import cx from 'classix';
 import { Dropdown } from '../atom/Dropdown';
 import { HamburToggle } from '../atom/HamburToggle';
 import { Link } from 'wouter';
 
-interface Props {
+interface Props extends PropsWithChildren {
   onMenu?: (show: boolean) => void;
   isMain?: boolean;
 }
 
-export function Navbar({ onMenu, isMain = false }: Props) {
+export function Navbar({ children, onMenu, isMain = false }: Props) {
   const navbarRef = useRef<HTMLUListElement>(null);
   const [showMenu, setShowMenu] = useState(false);
 
@@ -24,8 +24,9 @@ export function Navbar({ onMenu, isMain = false }: Props) {
         showMenu ? 'pb-16' : 'pb-0',
       )}
     >
-      <div className="flex p-6">
+      <div className="flex items-center justify-between p-6">
         <HamburToggle onClick={() => setShowMenu(!showMenu)} />
+        {children && <div>{children}</div>}
       </div>
       <Dropdown show={showMenu} nodeRef={navbarRef}>
         <ul
@@ -37,7 +38,7 @@ export function Navbar({ onMenu, isMain = false }: Props) {
               <li> Página Principal </li>
             </Link>
           )}
-          <Link to="/search?q=@todo">
+          <Link to="/search">
             <li> Artículos </li>
           </Link>
           <Link to="/authors">
