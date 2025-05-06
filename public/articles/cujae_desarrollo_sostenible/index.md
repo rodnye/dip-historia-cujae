@@ -7,7 +7,7 @@ tags:
   - Tecnología
   - Desarrollo
 image:
-  src: ./images/Foto2.jpg
+  src: ./images/Foto2.png
   alt: Desarrollo sostenible
 ---
 

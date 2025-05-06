@@ -1,5 +1,5 @@
 ---
-title: ALBA-1, Un salto tecnológico histórico
+title: 'ALBA-1, Un salto tecnológico histórico'
 author: Kevin de la Cruz Pérez
 desc: ALBA-1 fue el primer cable submarino de fibra óptica entre Venezuela y Cuba, inaugurado en 2011, mejorando la conectividad y reduciendo la dependencia de satélites. Este proyecto, impulsado por la Alianza Bolivariana (ALBA), representó un avance en la integración tecnológica regional y la soberanía comunicacional.
 tags:
@@ -7,7 +7,7 @@ tags:
   - Soberanía
 image:
   src: ./images/foto2.jpg
-  alt: ALBA1
+  alt: 'ALBA1'
 ---
 
 Entre 2005 y 2014, Cuba protagonizó una notable transformación en sus relaciones económicas internacionales, consolidando alianzas estratégicas que permitieron superar desafíos externos y modernizar su infraestructura. Esta década destacó por una visión innovadora de cooperación regional que sentó las bases para un nuevo modelo de desarrollo.
@@ -34,15 +34,13 @@ Cuba amplió inteligentemente su red de socios comerciales:
 
 - China se convirtió en segundo socio comercial, impulsando sectores de vanguardia como la biotecnología.
 
-![Fifo y Takaka](./images/foto10.jpg)
+![Fidel y presidente de la República Popular China](./images/foto10.jpg)
 
 - Rusia dio un histórico paso al condonar el 90% de la deuda heredada, permitiendo reiniciar proyectos de cooperación técnica.
 
 ![Fidel y Putin](./images/foto9.jpg)
 
 - Las relaciones con Brasil abrieron nuevos campos de inversión en infraestructura.
-
-![Fifo y tralalero tralala](./images/foto11.jpg)
 
 ## ALBA-1: Un salto tecnológico histórico
 
@@ -76,4 +74,5 @@ Los indicadores económicos confirmaron el éxito de esta estrategia:
 
 **Fuentes consultadas:**
 
-1. [Ecured](https://www.ecured.cu)
+1. [Cubadebate.cu:"Cable submarino ALBA 1 está operativo y se comienzan pruebas para tráfico de internet"](http://www.cubadebate.cu/noticias/2013/01/24/cable-submarino-alba-1-esta-operativo-y-se-comienzan-pruebas-para-trafico-de-internet/)
+2. [EL País.com:"El cable de fibra óptica entre Cuba y Venezuela comienza a funcionar"](https://elpais.com/internacional/2013/01/25/actualidad/1359150993_419023.html)
