@@ -43,7 +43,7 @@
       }
     ],
     "title": "La Batalla de Ideas Educación, Cultura y Resistencia en Cuba",
-    "author": "Rodny Estrada",
+    "author": "Rodny Roberto Estrada León",
     "desc": "Hoy, aquella etapa se recuerda como un esfuerzo por equilibrar ideales y realidad. Sus programas aún influyen en políticas públicas, y su espíritu resurge en nuevas generaciones que defienden la educación gratuita y la cultura como pilares de la nación.",
     "tags": [
       "Fidel",
@@ -87,6 +87,29 @@
     "image": {
       "src": "/articles/creacion_uci/images/Portada.jpg",
       "alt": "Cartel de la UCI con frase de Fidel"
+    }
+  },
+  "cujae": {
+    "id": "cujae",
+    "path": "/articles/cujae",
+    "images": [
+      {
+        "url": "/articles/cujae/images/google-maps.png",
+        "alt": "Vista satelital de la CUJAE. Google Maps"
+      }
+    ],
+    "title": "¿Qué es la CUJAE? Historia, Estructura y Legado",
+    "author": "Rodny Roberto Estrada León",
+    "desc": "La Universidad Tecnológica de La Habana “José Antonio Echeverría” (CUJAE) es el principal centro de educación superior en ciencias técnicas y arquitectura de Cuba. Este artículo explora su historia, estructura académica, impacto social y su papel en la formación de profesionales y la investigación científica.",
+    "tags": [
+      "Universidad",
+      "Ingeniería",
+      "Cuba",
+      "Tecnología"
+    ],
+    "image": {
+      "src": "/articles/cujae/images/foto-fachada.jpg",
+      "alt": "CUJAE"
     }
   },
   "fibra_optica": {
@@ -143,8 +166,20 @@
     "path": "/articles/noveno_congreso_ujc",
     "images": [
       {
+        "url": "/articles/noveno_congreso_ujc/images/Foto5.jpg",
+        "alt": "Logo del 9no Congreso de la UJC"
+      },
+      {
+        "url": "/articles/noveno_congreso_ujc/images/Foto-3.jpg",
+        "alt": "Jóvenes reunidos en el 9no Congreso de la UJC"
+      },
+      {
+        "url": "/articles/noveno_congreso_ujc/images/Foto4.jpg",
+        "alt": "Raúl en el 9no Congreso de la UJC"
+      },
+      {
         "url": "/articles/noveno_congreso_ujc/images/Foto2.jpg",
-        "alt": "9no Congreso UJC"
+        "alt": "Logo de la UJC"
       }
     ],
     "title": "9no Congreso de la UJC",
