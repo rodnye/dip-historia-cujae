@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import { Link } from 'wouter';
-import heroCujaeImg from '../../assets/hero-cujae.png';
 import { articles } from '../../utils/load-articles';
 import { Navbar } from '../molecules/Navbar';
 import { Footer } from '../molecules/Footer';
 import { ArticleCard } from '../molecules/ArticleCard';
 import { Button } from '../atom/Button';
+
+import heroCujaeImg from '../../assets/hero-cujae.png';
 
 export function HomePage() {
   const [showMenu, setShowMenu] = useState(false);
@@ -30,15 +31,15 @@ export function HomePage() {
         <div className="absolute left-0 top-0 z-0 h-full w-full bg-black opacity-60"></div>
         <h1 className="relative z-50 text-3xl text-primary-content">
           Tecnología con historia, ideas con futuro.
-          <br />
-          <br />
-          Descubre los hitos que definieron nuestra universidad
         </h1>
       </header>
 
       <section className="p-6 pt-0 text-body-content">
-        Bienvenido al espacio donde podrás apreciar los hitos de la Ciudad
-        Universidad José Antonio Echeverría.
+        Bienvenido al espacio donde podrás apreciar los hitos históricos y
+        tecnológicos de nuestro país durante el periodo comprendido entre
+        2005-2014.
+        <br />
+        Cortesía de nuestros autores.
       </section>
 
       <section className="p-6">
@@ -51,7 +52,7 @@ export function HomePage() {
           ))}
         </div>
 
-        <Link to="/search?q=@todo">
+        <Link to="/search">
           <Button>Ver todos los artículos</Button>
         </Link>
       </section>

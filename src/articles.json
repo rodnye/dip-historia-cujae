@@ -112,6 +112,70 @@
       "alt": "CUJAE"
     }
   },
+  "cujae_desarrollo_sostenible": {
+    "id": "cujae_desarrollo_sostenible",
+    "path": "/articles/cujae_desarrollo_sostenible",
+    "images": [
+      {
+        "url": "/articles/cujae_desarrollo_sostenible/images/Foto3.png",
+        "alt": "Generación de agua caliente con energía solar térmica"
+      },
+      {
+        "url": "/articles/cujae_desarrollo_sostenible/images/Foto%204.png",
+        "alt": "Esquema de generación de energía eléctrica a partir de biomasa"
+      },
+      {
+        "url": "/articles/cujae_desarrollo_sostenible/images/Foto5.jpg",
+        "alt": "Personal de la Cujae formándose en energías renovables"
+      },
+      {
+        "url": "/articles/cujae_desarrollo_sostenible/images/Foto6.jpg",
+        "alt": "Desarrollo sostenible, energías renovables y eficiencia energética"
+      }
+    ],
+    "title": "Proyecto sobre desarrollo sostenible en la Cujae",
+    "author": "Herbert Luis Navarro Valdés",
+    "desc": "Durante el período de 2005 a 2014, la CUJAE llevó a cabo varios proyectos de desarrollo sostenible. En este artículo hablaremos sobre los más destacados.",
+    "tags": [
+      "Cujae",
+      "Tecnología",
+      "Desarrollo"
+    ],
+    "image": {
+      "src": "/articles/cujae_desarrollo_sostenible/images/Foto2.png",
+      "alt": "Desarrollo sostenible"
+    }
+  },
+  "cujae_software_automatización": {
+    "id": "cujae_software_automatización",
+    "path": "/articles/cujae_software_automatización",
+    "images": [
+      {
+        "url": "/articles/cujae_software_automatización/images/Foto2.png",
+        "alt": "Roles clave en el desarrollo de software"
+      },
+      {
+        "url": "/articles/cujae_software_automatización/images/Foto3.jpg",
+        "alt": "CITI Cujae"
+      },
+      {
+        "url": "/articles/cujae_software_automatización/images/Foto4.png",
+        "alt": "Estudiante realizando un proyecto de automatización"
+      }
+    ],
+    "title": "Desarrollo de software y automatización en la Cujae",
+    "author": "Herbert Luis Navarro Valdés",
+    "desc": "Durante el período de 2005 a 2014, la CUJAE llevó a cabo varios proyectos de desarrollo de software y automatización enfocados en mejorar la eficiencia y calidad de los sistemas informáticos en Cuba.",
+    "tags": [
+      "Cujae",
+      "Tecnología",
+      "Informatización"
+    ],
+    "image": {
+      "src": "/articles/cujae_software_automatización/images/Foto1.jpg",
+      "alt": "Código desarrollado por un programador cujaeño"
+    }
+  },
   "fibra_optica": {
     "id": "fibra_optica",
     "path": "/articles/fibra_optica",
@@ -134,15 +198,11 @@
       },
       {
         "url": "/articles/fibra_optica/images/foto10.jpg",
-        "alt": "Fifo y Takaka"
+        "alt": "Fidel y presidente de la República Popular China"
       },
       {
         "url": "/articles/fibra_optica/images/foto9.jpg",
         "alt": "Fidel y Putin"
-      },
-      {
-        "url": "/articles/fibra_optica/images/foto11.jpg",
-        "alt": "Fifo y tralalero tralala"
       },
       {
         "url": "/articles/fibra_optica/images/foto2.jpg",
@@ -223,6 +283,59 @@
     "image": {
       "src": "/articles/regreso_de_los_5_heroes/images/Portada.jpg",
       "alt": "Los Cinco descendiendo del avión en La Habana rodeados de multitud"
+    }
+  },
+  "relaciones_exteriores": {
+    "id": "relaciones_exteriores",
+    "path": "/articles/relaciones_exteriores",
+    "images": [
+      {
+        "url": "/articles/relaciones_exteriores/images/foto%204.jpg",
+        "alt": "Petrocaribe"
+      },
+      {
+        "url": "/articles/relaciones_exteriores/images/foto%203.jpg",
+        "alt": "Petrocaribe"
+      },
+      {
+        "url": "/articles/relaciones_exteriores/images/foto%205.jpg",
+        "alt": "Mariel"
+      },
+      {
+        "url": "/articles/relaciones_exteriores/images/foto%206.jpg",
+        "alt": "Mariel"
+      },
+      {
+        "url": "/articles/relaciones_exteriores/images/foto%208.jpg",
+        "alt": "Alianzas"
+      },
+      {
+        "url": "/articles/relaciones_exteriores/images/foto%207.jpg",
+        "alt": "Alianzas"
+      },
+      {
+        "url": "/articles/relaciones_exteriores/images/foto%2010.jpg",
+        "alt": "Alianzas"
+      },
+      {
+        "url": "/articles/relaciones_exteriores/images/foto%209.jpg",
+        "alt": "Alianzas"
+      },
+      {
+        "url": "/articles/relaciones_exteriores/images/foto%2011.jpg",
+        "alt": "Alianzas"
+      }
+    ],
+    "title": "Relaciones exteriores",
+    "author": "Kevin de la Cruz Pérez",
+    "desc": "Cuba transformó su economía (2005-2014) mediante integración regional (Petrocaribe), infraestructura clave (Mariel) y nuevas alianzas globales, consolidando un modelo de desarrollo soberano.",
+    "tags": [
+      "Relaciones exteriores",
+      "Fortalecimiento tecnológico"
+    ],
+    "image": {
+      "src": "/articles/relaciones_exteriores/images/portada.jpg",
+      "alt": ""
     }
   },
   "revolucion_energetica": {

@@ -8,40 +8,15 @@ importers:
 
   .:
     dependencies:
+      '@eslint/js':
+        specifier: ^9.22.0
+        version: 9.25.1
       '@formkit/auto-animate':
         specifier: ^0.8.2
         version: 0.8.2
       '@tailwindcss/vite':
         specifier: ^4.1.4
         version: 4.1.4(vite@6.3.3(@types/node@22.15.3)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1))
-      classix:
-        specifier: ^2.2.2
-        version: 2.2.2
-      express:
-        specifier: ^5.1.0
-        version: 5.1.0
-      prettier:
-        specifier: ^3.5.3
-        version: 3.5.3
-      prettier-plugin-tailwindcss:
-        specifier: ^0.6.11
-        version: 0.6.11(prettier@3.5.3)
-      react:
-        specifier: ^19.0.0
-        version: 19.1.0
-      react-dom:
-        specifier: ^19.0.0
-        version: 19.1.0(react@19.1.0)
-      styled-components:
-        specifier: ^6.1.17
-        version: 6.1.17(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      wouter:
-        specifier: ^3.7.0
-        version: 3.7.0(react@19.1.0)
-    devDependencies:
-      '@eslint/js':
-        specifier: ^9.22.0
-        version: 9.25.1
       '@types/mdast':
         specifier: ^4.0.4
         version: 4.0.4
@@ -63,6 +38,9 @@ importers:
       autoprefixer:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.3)
+      classix:
+        specifier: ^2.2.2
+        version: 2.2.2
       eslint:
         specifier: ^9.22.0
         version: 9.25.1(jiti@2.4.2)
@@ -72,6 +50,9 @@ importers:
       eslint-plugin-react-refresh:
         specifier: ^0.4.19
         version: 0.4.20(eslint@9.25.1(jiti@2.4.2))
+      express:
+        specifier: ^5.1.0
+        version: 5.1.0
       glob:
         specifier: ^11.0.2
         version: 11.0.2
@@ -87,6 +68,18 @@ importers:
       postcss:
         specifier: ^8.5.3
         version: 8.5.3
+      prettier:
+        specifier: ^3.5.3
+        version: 3.5.3
+      prettier-plugin-tailwindcss:
+        specifier: ^0.6.11
+        version: 0.6.11(prettier@3.5.3)
+      react:
+        specifier: ^19.0.0
+        version: 19.1.0
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.1.0(react@19.1.0)
       rehype-raw:
         specifier: ^7.0.0
         version: 7.0.0
@@ -102,6 +95,9 @@ importers:
       remark-rehype:
         specifier: ^11.1.2
         version: 11.1.2
+      styled-components:
+        specifier: ^6.1.17
+        version: 6.1.17(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       tailwindcss:
         specifier: 3.x
         version: 3.4.17(ts-node@10.9.1(@types/node@22.15.3)(typescript@5.7.3))
@@ -117,6 +113,9 @@ importers:
       vite:
         specifier: ^6.3.1
         version: 6.3.3(@types/node@22.15.3)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1)
+      wouter:
+        specifier: ^3.7.0
+        version: 3.7.0(react@19.1.0)
       zod:
         specifier: ^3.24.3
         version: 3.24.3
