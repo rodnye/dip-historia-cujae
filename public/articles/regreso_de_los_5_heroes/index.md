@@ -1,5 +1,6 @@
 ---
 title: El Regreso de los Cinco Héroes Cubanos - Un Triunfo de la Resistencia
+date: 2014-12-17
 author: Alex Dayan Rodriguez
 desc: El regreso de Los Cinco no solo cerró un capítulo de dolor, sino que reforzó el discurso de resistencia frente al bloqueo económico. Hoy son símbolos de lealtad y su historia se enseña como ejemplo de sacrificio colectivo.
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Proyecto sobre desarrollo sostenible en la Cujae
+date: 2005
 author: Herbert Luis Navarro Valdés
 desc: 'Durante el período de 2005 a 2014, la CUJAE llevó a cabo varios proyectos de desarrollo sostenible. En este artículo hablaremos sobre los más destacados.'
 tags:

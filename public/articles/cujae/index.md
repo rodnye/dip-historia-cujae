@@ -1,5 +1,6 @@
 ---
 title: ¿Qué es la CUJAE? Historia, Estructura y Legado
+date: 1964-12-02
 author: Rodny Roberto Estrada León
 desc: La Universidad Tecnológica de La Habana “José Antonio Echeverría” (CUJAE) es el principal centro de educación superior en ciencias técnicas y arquitectura de Cuba. Este artículo explora su historia, estructura académica, impacto social y su papel en la formación de profesionales y la investigación científica.
 tags:

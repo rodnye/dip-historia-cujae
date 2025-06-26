@@ -6,6 +6,7 @@ export type ArticleData = {
   id: string;
   path: string;
   title: string;
+  date: string;
   author: string;
   desc: string;
   tags: string[];
@@ -23,9 +24,3 @@ export type ArticleData = {
 export type Article = ArticleData & {
   html: string;
 };
-
-declare global {
-  type ArticleMap = ArticleMap;
-  type ArticleData = ArticleData;
-  type Article = Article;
-}

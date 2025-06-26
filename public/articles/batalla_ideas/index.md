@@ -1,5 +1,6 @@
 ---
 title: La Batalla de Ideas Educación, Cultura y Resistencia en Cuba
+date: 1999-12-05
 author: Rodny Roberto Estrada León
 desc: Hoy, aquella etapa se recuerda como un esfuerzo por equilibrar ideales y realidad. Sus programas aún influyen en políticas públicas, y su espíritu resurge en nuevas generaciones que defienden la educación gratuita y la cultura como pilares de la nación.
 tags:

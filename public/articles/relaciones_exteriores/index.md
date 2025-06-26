@@ -1,6 +1,7 @@
 ---
 title: 'Relaciones exteriores'
 author: Kevin de la Cruz Pérez
+date: 2013
 desc: 'Cuba transformó su economía (2005-2014) mediante integración regional (Petrocaribe), infraestructura clave (Mariel) y nuevas alianzas globales, consolidando un modelo de desarrollo soberano.'
 tags:
   - Relaciones exteriores

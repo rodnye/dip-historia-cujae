@@ -1,5 +1,6 @@
 ---
 title: 'ALBA-1, Un salto tecnológico histórico'
+date: 2011-01-18
 author: Kevin de la Cruz Pérez
 desc: ALBA-1 fue el primer cable submarino de fibra óptica entre Venezuela y Cuba, inaugurado en 2011, mejorando la conectividad y reduciendo la dependencia de satélites. Este proyecto, impulsado por la Alianza Bolivariana (ALBA), representó un avance en la integración tecnológica regional y la soberanía comunicacional.
 tags:

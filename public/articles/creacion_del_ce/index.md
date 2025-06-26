@@ -1,5 +1,6 @@
 ---
 title: Fundación del Canal Educativo.
+date: '2002-05-09'
 author: Martín Alejandro García
 desc: El Canal Educativo de Cuba fue fundado el 9 de mayo de 2002 con el propósito de transmitir programas educativos sin afectar otros espacios televisivos.
 tags:

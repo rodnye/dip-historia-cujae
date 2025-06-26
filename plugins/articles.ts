@@ -20,6 +20,7 @@ type ArticleFrontmatter = Partial<ArticleData>;
 const frontmatterSchema = z.object({
   title: z.string(),
   author: z.string(),
+  date: z.coerce.string(),
   desc: z.string(),
   tags: z.array(z.string()),
   image: z.object({
@@ -57,14 +58,16 @@ export default function pluginArticles(options: PluginOptions = {}): Plugin {
         .toString();
 
       // parse frontmatter and markdown content
-      const { data: frontmatter, content } = matter(raw) as {
+      const matterResult = matter(raw) as {
         data: ArticleFrontmatter;
         content: string;
       };
 
+      let frontmatter: z.infer<typeof frontmatterSchema>;
+
       // validate frontmatter structure
       try {
-        frontmatterSchema.parse(frontmatter);
+        frontmatter = frontmatterSchema.parse(matterResult.data);
       } catch (error) {
         if (!(error instanceof Error)) throw error;
         throw new Error(
@@ -112,7 +115,7 @@ export default function pluginArticles(options: PluginOptions = {}): Plugin {
         .use(remarkRehype, { allowDangerousHtml: true })
         .use(rehypeRaw)
         .use(rehypeStringify)
-        .process(content);
+        .process(matterResult.content);
 
       // write processed HTML to file
       fs.writeFileSync(
@@ -126,6 +129,7 @@ export default function pluginArticles(options: PluginOptions = {}): Plugin {
         path: `/articles/${id}`,
         images,
         title: frontmatter.title || '',
+        date: frontmatter.date,
         author: frontmatter.author || '',
         desc: frontmatter.desc || '',
         tags: frontmatter.tags || [],

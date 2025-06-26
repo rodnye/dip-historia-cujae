@@ -1,5 +1,6 @@
 ---
 title: '6to Congreso del PCC'
+date: '2011-04-16'
 author: Victor Manuelle Moreno Iglesias
 desc: El 6to Congreso del PCC (2011) sentó las bases para la modernización económica de Cuba, impulsando reformas clave que abrieron nuevos espacios al emprendimiento y la productividad.
 tags:

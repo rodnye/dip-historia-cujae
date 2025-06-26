@@ -1,5 +1,6 @@
 ---
 title: 9no Congreso de la UJC
+date: 2010-04-05
 author: Herbert Luis Navarro Valdés
 desc: 'Raúl Castro y la UJC en 2010: La batalla económica es hoy la tarea principal. El IX Congreso de la Juventud Comunista cubana analizó crisis salarial, emigración y el desafío generacional'
 tags:

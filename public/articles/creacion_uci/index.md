@@ -1,5 +1,6 @@
 ---
 title: Creación de la Universidad de Ciencias Informáticas.
+date: 2002-09-23
 author: Martín Alejandro García
 desc: La Universidad de las Ciencias Informáticas (UCI) es una institución cubana creada en 2002 con el objetivo de desarrollar software y contribuir a la informatización del país.
 tags:

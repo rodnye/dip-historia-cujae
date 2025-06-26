@@ -1,5 +1,6 @@
 ---
 title: Desarrollo de software y automatización en la Cujae
+date: 2014
 author: Herbert Luis Navarro Valdés
 desc: 'Durante el período de 2005 a 2014, la CUJAE llevó a cabo varios proyectos de desarrollo de software y automatización enfocados en mejorar la eficiencia y calidad de los sistemas informáticos en Cuba.'
 tags:

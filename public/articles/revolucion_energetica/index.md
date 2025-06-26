@@ -1,5 +1,6 @@
 ---
 title: 'La Revolución Energética en Cuba (2006): Transformación y Ahorro'
+date: 2006
 author: Frank Abel Martínez Rodríguez
 desc: La Revolución Energética en Cuba, surgió como respuesta a la crisis energética que afectaba a Cuba, marcada por apagones frecuentes y una infraestructura eléctrica obsoleta.
 tags:

@@ -1,5 +1,6 @@
 ---
 title: 'La Visita de Barack Obama a Cuba (2016): Un Hito en las Relaciones Bilaterales'
+date: 2016-03-20
 author: Frank Abel Martínez Rodríguez
 desc: La visita de Barack Obama a Cuba en marzo de 2016 fue histórica, marcando el primer viaje de un presidente estadounidense en ejercicio a la isla en casi 90 años
 tags:
