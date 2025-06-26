@@ -83,7 +83,7 @@ export function HomePage() {
       </section>
 
       {/* Featured Articles */}
-      <section className="bg-white px-6 py-16">
+      <section className="bg-body px-6 py-16">
         <div className="mx-auto max-w-6xl">
           <div className="mb-10 flex items-end justify-between border-b border-gray-200 pb-4">
             <h2 className="text-3xl font-bold text-gray-800">

@@ -26,7 +26,7 @@ export function Button({
   const variantStyles = {
     primary: 'bg-gray-800 text-white hover:bg-gray-700 border border-gray-700',
     outline:
-      'bg-transparent text-white border border-white hover:bg-white hover:text-gray-900',
+      'bg-transparent text-white border border-white hover:bg-body hover:text-gray-900',
     ghost: 'bg-transparent text-gray-300 hover:text-white hover:bg-gray-800',
   };
 

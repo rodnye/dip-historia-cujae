@@ -23,7 +23,7 @@ export function SearchField({
 
   return (
     <div className={`relative ${className}`}>
-      <div className="flex items-center overflow-hidden rounded-full border border-gray-200 bg-white shadow-md transition-shadow duration-300 focus-within:border-transparent focus-within:ring-2 focus-within:ring-blue-500 hover:shadow-lg">
+      <div className="flex items-center overflow-hidden rounded-full border border-gray-200 bg-body shadow-md transition-shadow duration-300 focus-within:border-transparent focus-within:ring-2 focus-within:ring-blue-500 hover:shadow-lg">
         {/* Icono de búsqueda */}
         <div className="pl-4 pr-2 text-gray-400">
           <svg

@@ -10,7 +10,7 @@ interface Props {
 export function ArticleCard({ articleData }: Props) {
   return (
     <Link to={articleData.path}>
-      <div className="group my-4 overflow-hidden rounded-lg bg-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md sm:my-6 sm:rounded-xl sm:hover:-translate-y-1 sm:hover:shadow-lg dark:bg-gray-800">
+      <div className="group my-4 overflow-hidden rounded-lg bg-body shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md sm:my-6 sm:rounded-xl sm:hover:-translate-y-1 sm:hover:shadow-lg dark:bg-gray-800">
         <div className="flex flex-col sm:flex-row">
           {/* Imagen - Responsive con relación de aspecto */}
           <div className="relative h-48 w-full overflow-hidden sm:h-auto sm:w-1/3 lg:w-2/5">

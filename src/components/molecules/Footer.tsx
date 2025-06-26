@@ -150,7 +150,7 @@ export function Footer() {
             <h3 className="relative mb-3 from-green-400 to-teal-600 pb-2 text-lg font-semibold after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-12 after:-translate-x-1/2 after:bg-gradient-to-r after:content-['']">
               Visítanos
             </h3>
-            <div className="rounded-lg bg-white p-2 shadow-lg transition-shadow duration-300 hover:shadow-xl">
+            <div className="rounded-lg bg-body p-2 shadow-lg transition-shadow duration-300 hover:shadow-xl">
               <QRCode
                 value="https://historia-cujae.com"
                 size={120}

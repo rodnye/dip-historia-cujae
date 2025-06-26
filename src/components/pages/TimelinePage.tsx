@@ -70,7 +70,7 @@ export function TimelinePage() {
           <div className="flex items-center space-x-2">
             <FiCalendar className="h-5 w-5 text-gray-500 dark:text-gray-400" />
             <span className="font-medium text-gray-700 dark:text-gray-300">
-              Filtrar por año:
+              Años:
             </span>
           </div>
 
@@ -120,7 +120,7 @@ export function TimelinePage() {
                     <div
                       className={`hidden w-1/2 sm:block ${index % 2 === 0 ? 'pr-8 text-right' : 'pl-8'}`}
                     >
-                      <div className="inline-flex items-center rounded-lg bg-white p-3 shadow dark:bg-gray-800">
+                      <div className="inline-flex items-center rounded-lg bg-body p-3 shadow dark:bg-gray-800">
                         <FiClock className="mr-2 h-4 w-4 text-gray-500" />
                         <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
                           {day} {month} {year}
