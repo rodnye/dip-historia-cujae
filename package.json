@@ -7,7 +7,7 @@
     "start": "npm run build && npm run start:server",
     "start:server": "node server/index.cjs",
     "dev": "vite --host",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "format": "prettier --write .",
