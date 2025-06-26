@@ -1,5 +1,6 @@
 # ignore generate content from index.md files
 public/articles/**/content.html
+src/articles.json
 
 # deploy
 .vercel
