@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import articlesJson from '../articles.json';
+import { Article, ArticleData, ArticleMap } from '../@types/articles';
 
 export const articlesMap: ArticleMap = articlesJson;
 export const articles: ArticleData[] = Object.values(articlesMap);

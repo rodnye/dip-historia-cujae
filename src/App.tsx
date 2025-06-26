@@ -7,6 +7,7 @@ import { NotFoundPage } from './components/pages/NotFoundPage';
 import { SearchPage } from './components/pages/SearchPage';
 import { AuthorsPage } from './components/pages/AuthorsPage';
 import { AboutPage } from './components/pages/AboutPage';
+import { TimelinePage } from './components/pages/TimelinePage';
 
 function App() {
   const [location] = useLocation();
@@ -16,7 +17,7 @@ function App() {
     <div className="flex h-full flex-col items-center bg-body font-serrat text-body-content">
       <div
         ref={animationParent}
-        className="flex h-full w-full max-w-xl flex-col overflow-x-scroll"
+        className="flex h-full w-full flex-col overflow-x-scroll"
       >
         <Switch location={location} key={location}>
           <Route path="/" component={HomePage} />
@@ -24,6 +25,7 @@ function App() {
           <Route path="/search" component={SearchPage} />
           <Route path="/authors" component={AuthorsPage} />
           <Route path="/about" component={AboutPage} />
+          <Route path="/timeline" component={TimelinePage} />
           <Route component={NotFoundPage} />
         </Switch>
       </div>
