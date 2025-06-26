@@ -1,47 +1,77 @@
 .article {
+  @apply mx-auto max-w-4xl px-4 py-8;
+
   .image-container {
-    @apply my-6 flex flex-col self-center;
+    @apply mx-auto my-8 flex max-w-full flex-col items-center gap-2;
 
     img {
-      @apply w-[39rem] rounded-xl;
+      @apply w-full rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl;
+      max-width: 39rem;
     }
+
     strong {
-      @apply font-bold italic opacity-70;
+      @apply text-sm font-medium italic text-gray-600;
       &:before {
-        content: 'Imagen: ';
+        content: 'Descripción: ';
+        @apply font-normal text-gray-500;
       }
     }
   }
 
   .article-body {
-    strong {
-      @apply text-blue-900;
-    }
+    @apply prose prose-lg max-w-none;
 
-    h1,
-    h2,
-    h3,
-    h4 {
-      @apply mb-1 mt-3;
-    }
+    /* Mejoras de tipografía */
+    @apply prose-headings:font-semibold prose-headings:text-gray-800;
+    @apply prose-p:text-gray-700 prose-li:text-gray-700;
+    @apply prose-a:text-blue-600 hover:prose-a:text-blue-500 prose-a:underline hover:prose-a:underline-offset-4;
+    @apply prose-strong:text-blue-800 prose-em:italic prose-em:text-gray-600;
 
-    h2 {
-      @apply text-2xl;
-    }
+    /* Imágenes dentro del contenido */
+    @apply prose-img:rounded-lg prose-img:shadow-md prose-img:transition-all prose-img:duration-300 hover:prose-img:shadow-lg;
 
-    ol,
-    ul {
-      @apply m-2 flex list-decimal flex-col;
-      li {
-        @apply ml-6 pl-0;
-        a {
-          @apply text-blue-600 underline transition-all duration-150 hover:pl-6;
-        }
-      }
-    }
+    /* Bloques de código y citas */
+    @apply prose-blockquote:border-l-4 prose-blockquote:border-blue-200 prose-blockquote:bg-blue-50 prose-blockquote:px-4 prose-blockquote:py-2 prose-blockquote:text-gray-700;
+    @apply prose-pre:bg-gray-800 prose-pre:text-gray-100 prose-pre:rounded-lg prose-pre:p-4;
 
+    /* Listas mejoradas */
+    @apply prose-ul:list-disc prose-ol:list-decimal;
+    @apply prose-li:marker:text-blue-400 prose-li:pl-2;
+    @apply prose-ul:space-y-2 prose-ol:space-y-2;
+
+    /* Tablas */
+    @apply prose-table:border prose-table:border-gray-200 prose-th:bg-gray-100 prose-th:p-3 prose-td:p-3;
+
+    /* HR estilizado */
     hr {
-      @apply mx-7 my-6 text-body-content;
+      @apply my-8 border-t-2 border-gray-200;
+    }
+
+    /* Efectos especiales para enlaces en listas */
+    li a {
+      @apply transition-all duration-200 hover:pl-2;
+    }
+
+    /* Mejoras para encabezados específicos */
+    h2 {
+      @apply mb-4 mt-8 border-b border-gray-100 pb-2 text-2xl;
+    }
+
+    h3 {
+      @apply mb-3 mt-6 text-xl;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .article {
+    @apply prose-sm;
+    h2 {
+      @apply text-xl;
+    }
+
+    h3 {
+      @apply text-lg;
     }
   }
 }
