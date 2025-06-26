@@ -1,41 +1,67 @@
 interface Props {
   value?: string;
   placeholder?: string;
-  onChange?: () => void;
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onInput?: (value: string) => void;
+  onSearch?: () => void;
+  className?: string;
 }
 
-export function SearchField({ value, placeholder, onChange, onInput }: Props) {
+export function SearchField({
+  value,
+  placeholder = 'Buscar...',
+  onChange,
+  onInput,
+  onSearch,
+  className = '',
+}: Props) {
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter' && onSearch) {
+      onSearch();
+    }
+  };
+
   return (
-    <div className="flex items-center justify-center">
-      <div className="rounded-lg bg-gray-200 p-2 text-gray-500">
-        <div className="flex">
-          <div className="relative flex w-10 items-center justify-center rounded-bl-lg rounded-tl-lg border-r border-gray-200 bg-white p-5">
-            <svg
-              viewBox="0 0 20 20"
-              aria-hidden="true"
-              className="pointer-events-none absolute w-5 fill-current transition"
-            >
-              <path d="M16.72 17.78a.75.75 0 1 0 1.06-1.06l-1.06 1.06ZM9 14.5A5.5 5.5 0 0 1 3.5 9H2a7 7 0 0 0 7 7v-1.5ZM3.5 9A5.5 5.5 0 0 1 9 3.5V2a7 7 0 0 0-7 7h1.5ZM9 3.5A5.5 5.5 0 0 1 14.5 9H16a7 7 0 0 0-7-7v1.5Zm3.89 10.45 3.83 3.83 1.06-1.06-3.83-3.83-1.06 1.06ZM14.5 9a5.48 5.48 0 0 1-1.61 3.89l1.06 1.06A6.98 6.98 0 0 0 16 9h-1.5Zm-1.61 3.89A5.48 5.48 0 0 1 9 14.5V16a6.98 6.98 0 0 0 4.95-2.05l-1.06-1.06Z" />
-            </svg>
-          </div>
-          <input
-            type="text"
-            className="w-full max-w-[160px] bg-white pl-2 text-base font-semibold outline-0"
-            placeholder={placeholder}
-            id=""
-            value={value}
-            onChange={onChange}
-            onInput={
-              onInput ? (e) => onInput(e.currentTarget.value) : undefined
-            }
-          />
-          <input
-            type="button"
-            defaultValue="Buscar"
-            className="rounded-br-lg rounded-tr-lg bg-primary p-2 font-semibold text-white transition-colors hover:bg-blue-800"
-          />
+    <div className={`relative ${className}`}>
+      <div className="flex items-center overflow-hidden rounded-full border border-gray-200 bg-white shadow-md transition-shadow duration-300 focus-within:border-transparent focus-within:ring-2 focus-within:ring-blue-500 hover:shadow-lg">
+        {/* Icono de búsqueda */}
+        <div className="pl-4 pr-2 text-gray-400">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
         </div>
+
+        {/* Campo de entrada */}
+        <input
+          type="text"
+          className="w-full px-2 py-3 text-gray-700 placeholder-gray-400 outline-none"
+          placeholder={placeholder}
+          value={value}
+          onChange={onChange}
+          onInput={onInput ? (e) => onInput(e.currentTarget.value) : undefined}
+          onKeyDown={handleKeyDown}
+        />
+
+        {/* Botón de búsqueda */}
+        {onSearch && (
+          <button
+            onClick={onSearch}
+            className="bg-gradient-to-r from-blue-500 to-blue-600 px-4 py-2 font-medium text-white transition-all duration-300 hover:from-blue-600 hover:to-blue-700 active:scale-95"
+          >
+            Buscar
+          </button>
+        )}
       </div>
     </div>
   );

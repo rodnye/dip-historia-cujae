@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-export function HamburToggle({ onClick = () => {} }) {
+export function HamburToggle({ className = '', onClick = () => {} }) {
   return (
     <StyledWrapper>
-      <div>
+      <div className={className}>
         <input id="checkbox" type="checkbox" onChange={onClick} />
         <label className="toggle" htmlFor="checkbox">
           <div id="bar1" className="bars" />
